@@ -317,7 +317,7 @@ ul {
   left: 50%;
   bottom: 5px;
   transform: translateX(-50%);
-  background-color: #2285c6;
+  background-color: #59b2ec;
   height: 9px;
   width: 100%;
   z-index: -1;
@@ -857,7 +857,7 @@ header .swiper-container .swiper-slide img {
   left: 50%;
   bottom: 5px;
   transform: translateX(-50%);
-  background-color: #2285c6;
+  background-color: #59b2ec;
   height: 9px;
   width: 100%;
   z-index: -1;
@@ -866,7 +866,7 @@ header .swiper-container .swiper-slide img {
 
 .about p {
   font-size: 17px;
-  font-family: 400;
+  font-weight: 300;
   line-height: 1.765;
   margin: 0 0 30px 0;
 }
@@ -896,6 +896,10 @@ header .swiper-container .swiper-slide img {
     margin-inline-start: 0;
     padding: 50px 0 0 0;
     box-shadow: none;
+    text-align: center;
+  }
+  .about h3 {
+    margin: 0 auto 30px;
   }
 }
 
@@ -1100,6 +1104,7 @@ header .swiper-container .swiper-slide img {
   font-size: 18px;
   font-weight: 400;
   margin: 0 0 30px 0;
+  line-height: 1.8;
 }
 
 .banner.sign {
@@ -1121,7 +1126,6 @@ header .swiper-container .swiper-slide img {
 }
 
 .news {
-  margin-top: 120px;
   padding: 75px 0;
 }
 
@@ -1141,7 +1145,7 @@ header .swiper-container .swiper-slide img {
 
 .news .news-content .news-item .news-body {
   padding: 0 25px 40px;
-  border: 2px solid #2285c6;
+  border: 2px solid #eaeaea;
 }
 
 .news .news-content .news-item .news-body h3 {
@@ -1174,6 +1178,7 @@ header .swiper-container .swiper-slide img {
 
 .news .news-content .news-item .news-body a.s-btn i {
   margin-inline-start: 10px;
+  font-size: 10px;
 }
 
 .news .news-content .news-item .news-body a.s-btn:hover {

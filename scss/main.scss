@@ -131,7 +131,7 @@
             left: 50%;
             bottom: 5px;
             transform: translateX(-50%);
-            background-color: $color1;
+            background-color: #59b2ec;
             height: 9px;
             width: 100%;
             z-index: -1;
@@ -479,7 +479,7 @@ nav {
                         font-size: 25px;
                         cursor: pointer;
                         color: #bdbdbd;
-                        margin-inline-start:auto;
+                        margin-inline-start: auto;
                     }
                 }
 
@@ -669,8 +669,8 @@ header {
         }
     }
 
-    .about-body{
-        max-width: 640px;;
+    .about-body {
+        max-width: 640px;
     }
 
     .about-txt {
@@ -695,7 +695,7 @@ header {
             left: 50%;
             bottom: 5px;
             transform: translateX(-50%);
-            background-color: $color1;
+            background-color: #59b2ec;
             height: 9px;
             width: 100%;
             z-index: -1;
@@ -705,7 +705,7 @@ header {
 
     p {
         font-size: 17px;
-        font-family: 400;
+        font-weight: 300;
         line-height: 1.765;
         margin: 0 0 30px 0;
     }
@@ -735,6 +735,11 @@ header {
             margin-inline-start: 0;
             padding: 50px 0 0 0;
             box-shadow: none;
+            text-align: center;
+        }
+
+        h3 {
+            margin: 0 auto 30px;
         }
     }
     @media (max-width: 768px) {
@@ -808,10 +813,10 @@ header {
 
             .service-img {
                 margin-inline-end: 0;
-                margin-bottom:25px;
+                margin-bottom: 25px;
             }
 
-            .service-body{
+            .service-body {
                 text-align: center;
             }
         }
@@ -943,6 +948,7 @@ header {
         font-size: 18px;
         font-weight: 400;
         margin: 0 0 30px 0;
+        line-height: 1.8;
     }
 }
 
@@ -967,7 +973,6 @@ header {
 }
 
 .news {
-    margin-top: 120px;
     padding: 75px 0;
 
     .news-content {
@@ -986,7 +991,7 @@ header {
 
             .news-body {
                 padding: 0 25px 40px;
-                border: 2px solid $color1;
+                border: 2px solid #eaeaea;
 
                 h3 {
                     font-size: 15px;
@@ -1019,6 +1024,7 @@ header {
 
                     i {
                         margin-inline-start: 10px;
+                        font-size: 10px;
                     }
 
                     &:hover {
@@ -1261,22 +1267,22 @@ html[dir="ltr"] {
         }
     }
 
-    nav .nav-lang{
+    nav .nav-lang {
         left: unset;
         right: 0;
     }
 
-    .news-ticker .ticker-content{
+    .news-ticker .ticker-content {
         flex-direction: row-reverse;
     }
 
-    .about .about-img:after{
-        right:unset;
-        left:-55px;
+    .about .about-img:after {
+        right: unset;
+        left: -55px;
     }
 
-    footer .s-list{
-        min-width:375px;
+    footer .s-list {
+        min-width: 375px;
     }
 
     .up {
